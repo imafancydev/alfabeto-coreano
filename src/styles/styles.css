@@ -14,5 +14,48 @@ html {
 }
 
 .introduction {
-  background: rgb(17, 0, 0);
+  padding: 0 0 0;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: #5c5ad4;
+}
+
+.site-name {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.site-logo {
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+}
+
+.introduction img {
+  margin-right: 1000px;
+  width: 200px;
+  height: auto;
+}
+
+.nav-bar {
+  display: inline-block;
+}
+
+.nav-bar-content {
+  list-style: none;
+}
+
+.nav-bar-content li {
+  margin-right: 70px;
+  display: inline-block;
+}
+
+.nav-bar-content li a {
+  text-decoration: none;
+  padding: 5px 10px;
 }
