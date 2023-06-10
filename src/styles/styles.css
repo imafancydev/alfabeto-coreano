@@ -16,11 +16,17 @@ html {
 h1 {
   padding: 10px;
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.1;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #663399, #4682b4, #40e0d0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header {
+  justify-content: space-between;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -30,13 +36,6 @@ header {
   background-color: #ffffff;
 }
 
-.site-name-gradient {
-  background-image: linear-gradient(to bottom, #663399, #4682b4, #40e0d0);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: black;
-}
-
 .header {
   padding: 10px 16px;
 }
@@ -44,4 +43,21 @@ header {
 .main-content {
   padding: 16px;
   margin-top: 70px;
+}
+
+.nav-bar-content {
+  padding: 25px 16px;
+}
+
+.nav-bar-content a {
+  text-decoration: none;
+}
+
+.nav-bar-content li {
+  list-style: none;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #663399, #4682b4, #40e0d0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
