@@ -13,12 +13,35 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-.introduction {
-  align-items: center;
-  display: flex;
-  position: relative;
-  justify-content: space-between;
+h1 {
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 100;
-  background: #5c5ad4;
+  z-index: 999px;
+  box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+.site-name-gradient {
+  background-image: linear-gradient(to bottom, #663399, #4682b4, #40e0d0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.header {
+  padding: 10px 16px;
+}
+
+.main-content {
+  padding: 16px;
+  margin-top: 70px;
 }
