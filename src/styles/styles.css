@@ -13,7 +13,74 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-h1 {
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  min-height: calc(100vh - 40px);
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999px;
+  box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+/* 
+.alphabet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.alphabet-letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #eaeaea;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
+} */
+
+.image-wrapper img {
+  width: 600px;
+  height: auto;
+}
+.main-section h2 {
+  margin-top: -500px;
+}
+
+.main-section img {
+  margin-left: 20px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-section-gradient {
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #337099, #d04edb, #738d8a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.site-name-gradient {
   padding: 10px;
   font-size: 3rem;
   line-height: 1.1;
@@ -22,18 +89,6 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-header {
-  justify-content: space-between;
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999px;
-  box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 0.5);
-  background-color: #ffffff;
 }
 
 .header {
