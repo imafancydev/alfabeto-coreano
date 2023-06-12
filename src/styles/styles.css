@@ -11,6 +11,7 @@
 html {
   font-family: "Montserrat", sans-serif;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -33,31 +34,26 @@ header {
   box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 0.5);
   background-color: #ffffff;
 }
-/* 
-.alphabet {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+
+footer {
+  text-align: center;
 }
 
-.alphabet-letters {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 100px;
-  background-color: #eaeaea;
-  border: 1px solid #999;
-  border-radius: 5px;
-  font-size: 24px;
-} */
+hr {
+  box-shadow: 0px 0px 6px 0px rgb(0, 0, 0, 0.5);
+}
+
+.footer-container {
+  font-weight: 400;
+  padding: 40px;
+}
 
 .image-wrapper img {
   width: 600px;
   height: auto;
 }
 .main-section h2 {
-  margin-top: -500px;
+  margin-top: -300px;
 }
 
 .main-section img {
@@ -91,12 +87,26 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+.alphabet {
+  padding: 50px;
+}
+
+.alphabet-letters {
+  font-weight: bold;
+  background: linear-gradient(to bottom, #663399, #0b0c0c, #2b3a7c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  margin-right: 100px;
+}
+
 .header {
   padding: 10px 16px;
 }
 
 .main-content {
-  padding: 16px;
+  padding: 50px;
   margin-top: 70px;
 }
 
