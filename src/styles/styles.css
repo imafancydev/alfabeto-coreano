@@ -89,6 +89,7 @@ hr {
 
 .alphabet {
   padding: 50px;
+  margin: 50px;
 }
 
 .alphabet-letters {
@@ -107,7 +108,7 @@ hr {
 
 .main-content {
   padding: 50px;
-  margin-top: 70px;
+  margin-top: auto;
 }
 
 .nav-bar-content {
